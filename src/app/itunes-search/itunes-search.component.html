@@ -1,0 +1,13 @@
+<h1>iTunes Search</h1>
+<input
+		[formControl]="searchBox"
+		placeholder="Search iTunes artists" />
+<div class="artist" *ngFor="let artists of results | async">
+	<a [href]="artists.artistViewUrl">
+		<img [src]="artists.artworkUrl60" alt="Artist Image Preview">
+		<div class="meta">
+			<h4>Artist: {{ artists.artistName }}</h4>
+			<p>Track name: {{ artists.trackName }}</p>
+		</div>
+	</a>
+</div>

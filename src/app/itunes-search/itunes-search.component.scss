@@ -1,0 +1,31 @@
+h1 {
+	color: cadetblue;
+}
+
+input {
+	width: 300px;
+	padding: 4px 8px;
+}
+.artist {
+	width : 80%;
+	padding: 5px 15px;
+	border-bottom: 1px solid cadetblue;
+	a {
+		text-decoration: none;
+		display : flex;
+		img {
+			max-width: 100%;
+			max-height: 100%;
+		}
+	}
+	.meta {
+		padding-left: 15px;
+		h4 {
+			color: darkcyan;
+			margin-top: 0;
+		}
+		p {
+			color: #333;
+		}
+	}
+}
