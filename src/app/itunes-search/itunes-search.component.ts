@@ -4,7 +4,7 @@ import {Observable} from 'rxjs/Observable';
 import 'rxjs/add/operator/debounceTime';
 
 @Component({
-  selector: 'app-spotify-search',
+  selector: 'app-itunes-search',
   templateUrl: './itunes-search.component.html',
   styleUrls: ['./itunes-search.component.scss']
 })

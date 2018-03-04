@@ -10,4 +10,8 @@
 			<p>Track name: {{ artists.trackName }}</p>
 		</div>
 	</a>
+  <app-favorite [is-favorite]="true"
+  ></app-favorite>
+  <!--(change)="onFavoriteChange($event)"-->
+
 </div>
